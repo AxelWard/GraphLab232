@@ -16,7 +16,7 @@ public class Driver {
         Scanner input = new Scanner(System.in);
         String path = input.nextLine();
 
-        File inputFile = new File(System.)
+        File inputFile = new File(path);
     }
 
     private static void menu() {
